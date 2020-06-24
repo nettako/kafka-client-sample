@@ -1,0 +1,11 @@
+!!com.wordpress.nettako.sample.kafka.config.ConfigYml
+kafkaBrokers : "localhost:9092"
+zooKeeperConnect : "localhost:2181"
+messageCount : 5
+clientId : "client1"
+topicName : "test"
+groupIdConfig : "consumerGroup1"
+maxNoMessageFoundCount : 100
+offsetResetLatest : "latest"
+offsetResetEarlier : "earliest"
+maxPollRecords : 1
